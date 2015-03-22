@@ -26,8 +26,8 @@ radon \
     $DJANGO/tests \
     > djangotest_raw_summary.out
 
-echo "" >> djangotests_raw_summary.out
-echo "DJANGO = " $DJANGO >> djangotests_raw_summary.out
+echo "" >> djangotest_raw_summary.out
+echo "DJANGO = " $DJANGO >> djangotest_raw_summary.out
 
 cd -
 
